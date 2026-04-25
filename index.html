@@ -166,18 +166,19 @@ const originalQuestions = [
     {id:2,sentence:"朽木不可雕__。",options:["陈述加强","疑问","推测"],answer:0,particle:"也",explanation:"加強陳述語氣"},
     {id:3,sentence:"攻之不克，吾其还__。",options:["祈使决断","疑问","感叹"],answer:0,particle:"也",explanation:"使祈使語氣更堅決、肯定和強烈。"},
     {id:4,sentence:"及诸河，则在舟中__。",options:["已然变化","判断","疑问"],answer:0,particle:"矣",explanation:"已然：原來就有這種情況，説話人把它當作新情況提出來或告知別人。"},
-    {id:5,sentence:"司马子反曰：“子之国何如？”华元曰：“惫__。”",options:["将然状态","恒常","判断"],answer:2,particle:"矣",explanation:"將然：現在還沒出現某種情況，但預料它必然出現，當作新情況告訴別人。"},
+    {id:5,sentence:"司马子反曰：“子之国何如？”华元曰：“惫__。”",options:["将然状态","恒常","判断"],answer:0,particle:"矣",explanation:"將然：現在還沒出現某種情況，但預料它必然出現，當作新情況告訴別人。"},
     {id:6,sentence:"廷掾起__。",options:["祈使推动","陈述","疑问"],answer:0,particle:"矣",explanation:"祈使句句尾（將然）：希望對方實現某種行焉或完成某種事情，帶有“將然”性質。"},
-    {id:7,sentence:"二世問左右：此乃鹿【也】？",options:["表疑问","表确认","感叹"],answer:1,particle:"也",explanation:"“也”不表疑問語氣，句子的疑問由句中其他詞傳達，“也”仍表確認語氣。"},
+    {id:7,sentence:"二世問左右：此乃鹿【也】？",options:["表确认","表疑问","感叹"],answer:0,particle:"也",explanation:"“也”不表疑問語氣，句子的疑問由句中其他詞傳達，“也”仍表確認語氣。"},
     {id:8,sentence:"能无战__？",options:["反问","普通疑问","命令"],answer:0,particle:"乎",explanation:"反問（無疑而問）。如果句中使用“不”、“無”等否定詞,就構成否定形式，表達的也是肯定的內容。"},
     {id:9,sentence:"公得毋误__？",options:["推测疑问","判断","感叹"],answer:0,particle:"乎",explanation:"推測（疑信參半的問話形式）。常同時出現“其”“無乃(毋乃)”“得無(得毋、得微、得非)”等表示委婉的詞語,以增強推測的委婉語氣。"},
     {id:10,sentence:"是鲁孔丘__？",options:["半信半疑，求证","反问","纯粹疑问"],answer:0,particle:"与",explanation:"是非問句句尾：不表示純粹的疑問，而是説話人心目中已有了某種看法，但還不能深信不疑，提出來要求證實。"},
     {id:11,sentence:"谁__，哭者？",options:["特指疑问","反问","求证"],answer:0,particle:"与",explanation:"特指問句句尾：幫助表達疑問語氣，句中另有疑問詞，疑問重點落在疑問詞上。"},
     {id:12,sentence:"岂得之难而失之易__？",options:["反问","普通疑问","陈述"],answer:0,particle:"与",explanation:"選擇問句句尾：可譯成“呢”"},
     {id:13,sentence:"嗟乎！冤__烹也！",options:["强烈感叹","判断","疑问"],answer:0,particle:"哉",explanation:"句尾表示比較強烈的感歎，相當於今天的 “啊”。如果“哉”跟它前面的謂語一起提到句首，感歎語氣就更強烈。"},
-    {id:14,sentence:"夫当今生民之患，果安在【哉】？",options:["表疑问","表感叹","表判断"],answer:1,particle:"哉",explanation:"跟疑問詞配合用於詢問句和反問句，句子的詢問語氣和反問語氣由疑問詞來表達,“哉”字帶給句子感歎的色彩"},
+    {id:14,sentence:"夫当今生民之患，果安在【哉】？",options:["表感叹","表疑问","表判断"],answer:0,particle:"哉",explanation:"跟疑問詞配合用於詢問句和反問句，句子的詢問語氣和反問語氣由疑問詞來表達,“哉”字帶給句子感歎的色彩"},
     {id:15,sentence:"必先事而申之以敬，慎終如始，終始如一，【夫】是之謂大吉。",options:["总结推论","判断","感叹"],answer:0,particle:"夫",explanation:" 用於句首，表示將要發表議論，引出議論內容。用在複句"}
 ];
+
 
 let questions = [...originalQuestions];
 let current = 0, score = 0, locked = false;
